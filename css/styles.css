@@ -1,0 +1,235 @@
+body {
+    background-color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #ffff;
+    position: relative;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+   
+
+p {
+    color:#8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+
+    
+}
+
+
+/* Headings */
+.big-heading {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.section-heading {
+    font-size: 3.0rem;
+    line-height: 1.5;  
+    font-weight: 800;  
+}
+
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* navigation bar */
+
+.navbar{
+    padding:0 0 4.5rem ;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem ;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* title image */
+
+.dogimage {
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    max-width: 300px;
+    max-height: 890px;
+    right: 25%;    
+}
+
+
+
+
+/* Features section */
+
+
+#features {
+    padding: 7% 15%;
+    background-color: white; 
+    position: relative;
+}
+
+#features img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
+.feature-title {
+    font-size: 1.5rem;
+    padding: 1.5;
+    font-weight: 800;
+
+}
+
+.content-features {
+    padding:10% 4.0%;
+
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover { 
+    color: #ffc468;
+}
+
+
+/* Testimonials section */
+
+
+#testimonials {
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+/* call to action */
+
+#cta {
+    background-color: #ff4c68;
+    color: #ffff;
+    padding: 7% 20%;
+}
+
+
+.copyright {
+    background-color: #ffff;
+    padding: 3rem 0 0 0;
+}
+
+
+.action-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* footer section */
+
+
+#footer {
+    padding: 8%;
+}
+
+.brandlogos {
+    margin: 0 auto;
+    
+}
+
+.iconic-socials {
+    padding: 0 2rem 0 0;
+}
+
+
+/* media query */
+
+@media (max-width: 1243px) {
+    .dogimage {
+        position: relative;
+        transform: rotate(0);
+        left: 30%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+}@media (max-width: 990px) {
+
+    #title {
+        text-align: center;
+    }
+    .dogimage {
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+
